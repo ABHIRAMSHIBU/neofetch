@@ -10,7 +10,7 @@
 # https://github.com/dylanaraps/
 
 # Neofetch version.
-version="3.3.1-git"
+version="3.3.2_termux-git"
 
 bash_version="${BASH_VERSION/.*}"
 sys_locale="${LANG:-C}"
@@ -4488,6 +4488,7 @@ version() { printf "%s" "\
 Neofetch $version
 
 Copyright (c) 2016-2017 Dylan Araps
+Copyright (c) 2017 Abhiram Shibu
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the 'Software'), to deal
@@ -4508,9 +4509,10 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
 Written by Dylan Araps with help from the following people:
-
+Original
 https://github.com/dylanaraps/neofetch/contributors
-
+Termux
+https://github.com/ABHIRAMSHIBU/neofetch/contributors
 "
 exit 1
 }
