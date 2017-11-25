@@ -4,6 +4,7 @@
 #
 # Neofetch: Simple system information script.
 # https://github.com/dylanaraps/neofetch
+# Termux: https://github.com/ABHIRAMSHIBU/neofetch
 #
 # Created by Dylan Araps
 # https://github.com/dylanaraps/
@@ -21,7 +22,7 @@ export LC_ALL=C
 export LANG=C
 
 # Add more paths to $PATH.
-export PATH="/usr/xpg4/bin:/usr/sbin:/sbin:/usr/etc:/usr/libexec:${PATH}"
+export PATH="/data/data/com.termux/files/usr/xpg4/bin:/data/data/com.termux/files/usr/sbin:/data/data/com.termux/files/sbin:/data/data/com.termux/files/usr/etc:/data/data/com.termux/files/usr/libexec:${PATH}"
 
 # Set no case match.
 shopt -s nocasematch
