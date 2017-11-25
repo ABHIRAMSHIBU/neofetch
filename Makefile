@@ -1,5 +1,5 @@
-PREFIX ?= /usr
-SYSCONFDIR ?= /etc
+PREFIX ?= /data/data/com.termux/files/usr
+SYSCONFDIR ?= /data/data/com.termux/files/etc
 MANDIR ?= $(PREFIX)/share/man
 
 all:
